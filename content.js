@@ -489,7 +489,7 @@
                 document.body.classList.add('cses-modern-enabled');
                 addModernStyling();
             } else {
-                toggle.textContent = 'Modern View';
+                toggle.textContent = 'Classic View';
                 toggle.classList.add('disabled');
                 document.body.classList.remove('cses-modern-enabled');
                 
