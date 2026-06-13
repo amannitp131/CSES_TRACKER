@@ -390,22 +390,20 @@
             if (!taskList.previousElementSibling || !taskList.previousElementSibling.classList.contains('task-list-header')) {
                 const header = document.createElement('div');
                 header.className = 'task-list-header';
-                
-                
-                
-                
-                
-                
+                header.innerHTML = '<span>Problem</span><span>Score</span><span>LeetCode Practice</span>';
                 taskList.parentNode.insertBefore(header, taskList);
-                console.log('Added header to task list');
             }
             
             const tasks = taskList.querySelectorAll('.task');
             console.log('Found tasks in this list:', tasks.length);
             
             tasks.forEach((task, index) => {
-                
-                if (task.querySelector('.leetcode-suggestions')) return;
+                const skeleton = task.querySelector('.leetcode-skeleton');
+                if (task.querySelector('.leetcode-suggestions')) {
+                    if (skeleton) skeleton.remove();
+                    return;
+                }
+                if (skeleton) skeleton.remove();
                 
                 const link = task.querySelector('a');
                 if (!link) return;
@@ -458,7 +456,17 @@
         });
     }
 
-    
+    function injectLoadingSkeletons() {
+        const tasks = document.querySelectorAll('.task-list .task');
+        tasks.forEach(task => {
+            if (task.querySelector('.leetcode-suggestions') || task.querySelector('.leetcode-skeleton')) return;
+            const skeleton = document.createElement('div');
+            skeleton.className = 'leetcode-skeleton';
+            task.appendChild(skeleton);
+        });
+    }
+
+
     function createModernToggle() {
         
         const existingToggle = document.getElementById('cses-modern-toggle');
@@ -576,6 +584,7 @@
             if (isListPage) {
                 if (document.readyState === 'loading') {
                     document.addEventListener('DOMContentLoaded', function() {
+                        injectLoadingSkeletons();
                         setTimeout(() => {
                             displayEnhancedCounter();
                             createCategoryFilter();
@@ -584,6 +593,7 @@
                         }, 1000);
                     });
                 } else {
+                    injectLoadingSkeletons();
                     setTimeout(() => {
                         displayEnhancedCounter();
                         createCategoryFilter();

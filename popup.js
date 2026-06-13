@@ -30,9 +30,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let catsVisible = true;
 
+  // ── Loader ────────────────────────────────────────
+
+  let loadStart = 0;
+
+  function setLoading(on) {
+    const el = document.getElementById('popup-loader');
+    if (!el) return;
+    if (on) {
+      loadStart = Date.now();
+      el.classList.remove('fade-out', 'hidden');
+    } else {
+      const delay = Math.max(0, 600 - (Date.now() - loadStart));
+      setTimeout(() => {
+        el.classList.add('fade-out');
+        setTimeout(() => el.classList.add('hidden'), 350);
+      }, delay);
+    }
+  }
+
   // ── Data loading ─────────────────────────────────
 
   function loadData() {
+    setLoading(true);
     if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
       chrome.storage.local.get(
         ['solvedCount', 'lastUpdated', 'detailedBreakdown'],
@@ -66,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // ── Display update ────────────────────────────────
 
   function updateDisplay(solvedCount, lastUpdated, detailedBreakdown) {
+    setLoading(false);
     // Number
     solvedCountEl.textContent = solvedCount;
     totalProblemsEl.textContent = TOTAL_PROBLEMS;
