@@ -5,7 +5,8 @@
   "description": "Track and display the number of solved problems on CSES.fi",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "scripting"
   ],
   "host_permissions": [
     "https://cses.fi/*"
@@ -13,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["https://cses.fi/problemset/*"],
-      "js": ["content.js"],
+      "js": ["leetcode-mapping.js", "content.js"],
       "css": ["styles.css", "modern-styles.css"]
     }
   ],
