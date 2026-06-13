@@ -1,10 +1,4 @@
-/**
- * CSES Problem Set → LeetCode Mapping
- * Full mapping for all ~300 CSES problems across all categories.
- * Each entry maps: CSES Task ID → { name, category, cses_url, leetcode[] }
- *
- * Generated from: https://cses.fi/problemset/list/
- */
+
 
 const csesLeetCodeMapping = {
 
@@ -3445,6 +3439,921 @@ const csesLeetCodeMapping = {
       { name: "First Missing Positive", url: "https://leetcode.com/problems/first-missing-positive/" },
       { name: "Smallest Missing Genetic Value in Each Subtree", url: "https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/" },
       { name: "Find Mex of Each Subarray", url: "https://leetcode.com/problems/find-mex-of-each-subarray/" },
+    ]
+  },
+
+  // ── Introductory (new) ─────────────────────────
+  "3399": {
+    name: "Raab Game I",
+    category: "Introductory – Combinatorial Game Theory",
+    cses_url: "https://cses.fi/problemset/task/3399",
+    leetcode: [
+      { name: "Stone Game", url: "https://leetcode.com/problems/stone-game/" },
+      { name: "Stone Game II", url: "https://leetcode.com/problems/stone-game-ii/" },
+      { name: "Predict the Winner", url: "https://leetcode.com/problems/predict-the-winner/" },
+    ]
+  },
+  "3419": {
+    name: "Mex Grid Construction",
+    category: "Introductory – Grid Construction / MEX",
+    cses_url: "https://cses.fi/problemset/task/3419",
+    leetcode: [
+      { name: "Find Mex of Each Subarray", url: "https://leetcode.com/problems/find-mex-of-each-subarray/" },
+      { name: "Construct Target Array With Multiple Sums", url: "https://leetcode.com/problems/construct-target-array-with-multiple-sums/" },
+    ]
+  },
+  "3217": {
+    name: "Knight Moves Grid",
+    category: "Introductory – BFS / Knight Moves",
+    cses_url: "https://cses.fi/problemset/task/3217",
+    leetcode: [
+      { name: "Minimum Knight Moves", url: "https://leetcode.com/problems/minimum-knight-moves/" },
+      { name: "Open the Lock", url: "https://leetcode.com/problems/open-the-lock/" },
+      { name: "Shortest Path in Binary Matrix", url: "https://leetcode.com/problems/shortest-path-in-binary-matrix/" },
+    ]
+  },
+  "3311": {
+    name: "Grid Coloring I",
+    category: "Introductory – Graph Coloring / Bipartite",
+    cses_url: "https://cses.fi/problemset/task/3311",
+    leetcode: [
+      { name: "Is Graph Bipartite?", url: "https://leetcode.com/problems/is-graph-bipartite/" },
+      { name: "Possible Bipartition", url: "https://leetcode.com/problems/possible-bipartition/" },
+      { name: "Coloring A Border", url: "https://leetcode.com/problems/coloring-a-border/" },
+    ]
+  },
+
+  // ── Sorting and Searching (new) ─────────────────
+  "3420": {
+    name: "Distinct Values Subarrays",
+    category: "Sorting – Sliding Window / Distinct Count",
+    cses_url: "https://cses.fi/problemset/task/3420",
+    leetcode: [
+      { name: "Number of Substrings Containing All Three Characters", url: "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/" },
+      { name: "Subarrays with K Different Integers", url: "https://leetcode.com/problems/subarrays-with-k-different-integers/" },
+      { name: "Longest Substring Without Repeating Characters", url: "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+    ]
+  },
+  "3421": {
+    name: "Distinct Values Subsequences",
+    category: "Sorting – DP / Distinct Subsequences",
+    cses_url: "https://cses.fi/problemset/task/3421",
+    leetcode: [
+      { name: "Distinct Subsequences", url: "https://leetcode.com/problems/distinct-subsequences/" },
+      { name: "Count Vowel Substrings of a String", url: "https://leetcode.com/problems/count-vowel-substrings-of-a-string/" },
+      { name: "Number of Unique Good Subsequences", url: "https://leetcode.com/problems/number-of-unique-good-subsequences/" },
+    ]
+  },
+
+  // ── Dynamic Programming (new) ───────────────────
+  "3359": {
+    name: "Minimal Grid Path",
+    category: "DP – Grid Path / Minimum Cost",
+    cses_url: "https://cses.fi/problemset/task/3359",
+    leetcode: [
+      { name: "Minimum Path Sum", url: "https://leetcode.com/problems/minimum-path-sum/" },
+      { name: "Dungeon Game", url: "https://leetcode.com/problems/dungeon-game/" },
+      { name: "Cherry Pickup", url: "https://leetcode.com/problems/cherry-pickup/" },
+    ]
+  },
+  "3314": {
+    name: "Mountain Range",
+    category: "DP – Sequence / Mountain Array",
+    cses_url: "https://cses.fi/problemset/task/3314",
+    leetcode: [
+      { name: "Longest Mountain in Array", url: "https://leetcode.com/problems/longest-mountain-in-array/" },
+      { name: "Valid Mountain Array", url: "https://leetcode.com/problems/valid-mountain-array/" },
+      { name: "Count Valid Mountain Arrays", url: "https://leetcode.com/problems/count-valid-mountain-arrays/" },
+    ]
+  },
+
+  // ── Range Queries (new) ─────────────────────────
+  "3304": {
+    name: "Visible Buildings Queries",
+    category: "Range Queries – Monotonic Stack / Visibility",
+    cses_url: "https://cses.fi/problemset/task/3304",
+    leetcode: [
+      { name: "Buildings With an Ocean View", url: "https://leetcode.com/problems/buildings-with-an-ocean-view/" },
+      { name: "Final Prices With a Special Discount in a Shop", url: "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/" },
+      { name: "Number of Visible People in a Queue", url: "https://leetcode.com/problems/number-of-visible-people-in-a-queue/" },
+    ]
+  },
+  "3163": {
+    name: "Range Interval Queries",
+    category: "Range Queries – Segment Tree / Interval Cover",
+    cses_url: "https://cses.fi/problemset/task/3163",
+    leetcode: [
+      { name: "Count of Range Sum", url: "https://leetcode.com/problems/count-of-range-sum/" },
+      { name: "Number of Flowers in Full Bloom", url: "https://leetcode.com/problems/number-of-flowers-in-full-bloom/" },
+      { name: "My Calendar I", url: "https://leetcode.com/problems/my-calendar-i/" },
+    ]
+  },
+  "3226": {
+    name: "Subarray Sum Queries II",
+    category: "Range Queries – Offline Queries / Fenwick Tree",
+    cses_url: "https://cses.fi/problemset/task/3226",
+    leetcode: [
+      { name: "Count of Range Sum", url: "https://leetcode.com/problems/count-of-range-sum/" },
+      { name: "Subarray Sum Equals K", url: "https://leetcode.com/problems/subarray-sum-equals-k/" },
+      { name: "Number of Sub-arrays With Odd Sum", url: "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/" },
+    ]
+  },
+  "3356": {
+    name: "Distinct Values Queries II",
+    category: "Range Queries – Offline / Merge Sort Tree",
+    cses_url: "https://cses.fi/problemset/task/3356",
+    leetcode: [
+      { name: "Count of Smaller Numbers After Self", url: "https://leetcode.com/problems/count-of-smaller-numbers-after-self/" },
+      { name: "Count of Range Sum", url: "https://leetcode.com/problems/count-of-range-sum/" },
+    ]
+  },
+
+  // ── Mathematics (new) ───────────────────────────
+  "3396": {
+    name: "Next Prime",
+    category: "Mathematics – Sieve of Eratosthenes / Primality",
+    cses_url: "https://cses.fi/problemset/task/3396",
+    leetcode: [
+      { name: "Count Primes", url: "https://leetcode.com/problems/count-primes/" },
+      { name: "Closest Prime Numbers in Range", url: "https://leetcode.com/problems/closest-prime-numbers-in-range/" },
+      { name: "Prime Number of Set Bits in Binary Representation", url: "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/" },
+    ]
+  },
+  "3397": {
+    name: "Permutation Order",
+    category: "Mathematics – Permutation Cycles / LCM",
+    cses_url: "https://cses.fi/problemset/task/3397",
+    leetcode: [
+      { name: "Find Permutation", url: "https://leetcode.com/problems/find-permutation/" },
+      { name: "Permutation Sequence", url: "https://leetcode.com/problems/permutation-sequence/" },
+    ]
+  },
+  "3398": {
+    name: "Permutation Rounds",
+    category: "Mathematics – Permutation Cycles / Order",
+    cses_url: "https://cses.fi/problemset/task/3398",
+    leetcode: [
+      { name: "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", url: "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/" },
+      { name: "Minimum Number of Operations to Sort a Binary Tree by Level", url: "https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/" },
+    ]
+  },
+  "3154": {
+    name: "System of Linear Equations",
+    category: "Mathematics – Gaussian Elimination / Linear Algebra",
+    cses_url: "https://cses.fi/problemset/task/3154",
+    leetcode: [
+      { name: "Robot Bounded In Circle", url: "https://leetcode.com/problems/robot-bounded-in-circle/" },
+      { name: "Check if It Is a Straight Line", url: "https://leetcode.com/problems/check-if-it-is-a-straight-line/" },
+    ]
+  },
+  "3355": {
+    name: "Sum of Four Squares",
+    category: "Mathematics – Lagrange's Four-Square Theorem",
+    cses_url: "https://cses.fi/problemset/task/3355",
+    leetcode: [
+      { name: "Perfect Squares", url: "https://leetcode.com/problems/perfect-squares/" },
+      { name: "Count Ways to Express a Number as Sum of Powers", url: "https://leetcode.com/problems/count-ways-to-express-a-number-as-sum-of-powers/" },
+    ]
+  },
+  "3406": {
+    name: "Triangle Number Sums",
+    category: "Mathematics – Combinatorics / Triangle Numbers",
+    cses_url: "https://cses.fi/problemset/task/3406",
+    leetcode: [
+      { name: "Valid Triangle Number", url: "https://leetcode.com/problems/valid-triangle-number/" },
+      { name: "Count Triplets That Can Form Two Arrays of Equal XOR", url: "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/" },
+    ]
+  },
+
+  // ── String Algorithms (new) ─────────────────────
+  "3138": {
+    name: "All Palindromes",
+    category: "String – Manacher / Palindrome Counting",
+    cses_url: "https://cses.fi/problemset/task/3138",
+    leetcode: [
+      { name: "Palindromic Substrings", url: "https://leetcode.com/problems/palindromic-substrings/" },
+      { name: "Count Different Palindromic Subsequences", url: "https://leetcode.com/problems/count-different-palindromic-subsequences/" },
+      { name: "Longest Palindromic Substring", url: "https://leetcode.com/problems/longest-palindromic-substring/" },
+    ]
+  },
+  "3225": {
+    name: "Inverse Suffix Array",
+    category: "String – Suffix Array / Suffix Array Inversion",
+    cses_url: "https://cses.fi/problemset/task/3225",
+    leetcode: [
+      { name: "Count Unique Characters of All Substrings of a Given String", url: "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/" },
+      { name: "Number of Distinct Substrings in a String", url: "https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/" },
+    ]
+  },
+
+  // ── Geometry (new) ──────────────────────────────
+  "3410": {
+    name: "Maximum Manhattan Distances",
+    category: "Geometry – Manhattan Distance / Coordinate Transform",
+    cses_url: "https://cses.fi/problemset/task/3410",
+    leetcode: [
+      { name: "Maximum of Absolute Value Expression", url: "https://leetcode.com/problems/maximum-of-absolute-value-expression/" },
+      { name: "Maximum Manhattan Distance", url: "https://leetcode.com/problems/maximum-manhattan-distance/" },
+    ]
+  },
+  "3411": {
+    name: "All Manhattan Distances",
+    category: "Geometry – Manhattan Distance / Sum of Distances",
+    cses_url: "https://cses.fi/problemset/task/3411",
+    leetcode: [
+      { name: "Sum of Absolute Differences in a Sorted Array", url: "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/" },
+      { name: "Minimum Moves to Make Array Complementary", url: "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/" },
+      { name: "Minimum Cost to Move Chips to The Same Position", url: "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/" },
+    ]
+  },
+  "3427": {
+    name: "Line Segments Trace I",
+    category: "Geometry – Sweep Line / Segment Overlap",
+    cses_url: "https://cses.fi/problemset/task/3427",
+    leetcode: [
+      { name: "The Skyline Problem", url: "https://leetcode.com/problems/the-skyline-problem/" },
+      { name: "Minimum Number of Arrows to Burst Balloons", url: "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/" },
+      { name: "Non-overlapping Intervals", url: "https://leetcode.com/problems/non-overlapping-intervals/" },
+    ]
+  },
+  "3428": {
+    name: "Line Segments Trace II",
+    category: "Geometry – Sweep Line / Advanced Segment Queries",
+    cses_url: "https://cses.fi/problemset/task/3428",
+    leetcode: [
+      { name: "Merge Intervals", url: "https://leetcode.com/problems/merge-intervals/" },
+      { name: "Count Ways to Group Overlapping Ranges", url: "https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/" },
+    ]
+  },
+  "3429": {
+    name: "Lines and Queries I",
+    category: "Geometry – Line Intersection / Sweep Line",
+    cses_url: "https://cses.fi/problemset/task/3429",
+    leetcode: [
+      { name: "Max Points on a Line", url: "https://leetcode.com/problems/max-points-on-a-line/" },
+      { name: "Line Reflection", url: "https://leetcode.com/problems/line-reflection/" },
+    ]
+  },
+  "3430": {
+    name: "Lines and Queries II",
+    category: "Geometry – Advanced Line / CHT / Li Chao Tree",
+    cses_url: "https://cses.fi/problemset/task/3430",
+    leetcode: [
+      { name: "Minimum Lines to Represent a Line Chart", url: "https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/" },
+      { name: "Count Lattice Points Inside a Circle", url: "https://leetcode.com/problems/count-lattice-points-inside-a-circle/" },
+    ]
+  },
+
+  // ── Advanced Techniques (new) ───────────────────
+  "3360": {
+    name: "Corner Subgrid Check",
+    category: "Advanced – 2D Prefix Sums / Subgrid Pattern",
+    cses_url: "https://cses.fi/problemset/task/3360",
+    leetcode: [
+      { name: "Number of Submatrices That Sum to Target", url: "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/" },
+      { name: "Count Square Submatrices with All Ones", url: "https://leetcode.com/problems/count-square-submatrices-with-all-ones/" },
+      { name: "Matrix Block Sum", url: "https://leetcode.com/problems/matrix-block-sum/" },
+    ]
+  },
+
+  // ── Sliding Window (new) ────────────────────────
+  "3426": {
+    name: "Sliding Window Xor",
+    category: "Sliding Window – XOR / Fixed Window",
+    cses_url: "https://cses.fi/problemset/task/3426",
+    leetcode: [
+      { name: "XOR Queries of a Subarray", url: "https://leetcode.com/problems/xor-queries-of-a-subarray/" },
+      { name: "Count Triplets That Can Form Two Arrays of Equal XOR", url: "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/" },
+      { name: "Minimum Flips to Make a OR b Equal to c", url: "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/" },
+    ]
+  },
+  "3405": {
+    name: "Sliding Window Or",
+    category: "Sliding Window – Bitwise OR / Fixed Window",
+    cses_url: "https://cses.fi/problemset/task/3405",
+    leetcode: [
+      { name: "Bitwise OR of All Subsequence Sums", url: "https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/" },
+      { name: "Longest Subarray With Maximum Bitwise AND", url: "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/" },
+    ]
+  },
+
+  // ── Interactive Problems (new) ──────────────────
+  "3112": {
+    name: "Hidden Integer",
+    category: "Interactive – Binary Search",
+    cses_url: "https://cses.fi/problemset/task/3112",
+    leetcode: [
+      { name: "Guess Number Higher or Lower", url: "https://leetcode.com/problems/guess-number-higher-or-lower/" },
+      { name: "Find Peak Element", url: "https://leetcode.com/problems/find-peak-element/" },
+    ]
+  },
+  "3139": {
+    name: "Hidden Permutation",
+    category: "Interactive – Permutation Recovery",
+    cses_url: "https://cses.fi/problemset/task/3139",
+    leetcode: [
+      { name: "Find the Duplicate Number", url: "https://leetcode.com/problems/find-the-duplicate-number/" },
+      { name: "Find the Difference", url: "https://leetcode.com/problems/find-the-difference/" },
+    ]
+  },
+  "3305": {
+    name: "K-th Highest Score",
+    category: "Interactive – K-th Element / Quickselect",
+    cses_url: "https://cses.fi/problemset/task/3305",
+    leetcode: [
+      { name: "Kth Largest Element in an Array", url: "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+      { name: "K-th Smallest Prime Fraction", url: "https://leetcode.com/problems/k-th-smallest-prime-fraction/" },
+    ]
+  },
+  "3228": {
+    name: "Permuted Binary Strings",
+    category: "Interactive – Binary String / XOR Queries",
+    cses_url: "https://cses.fi/problemset/task/3228",
+    leetcode: [
+      { name: "Find the Longest Substring Containing Vowels in Even Counts", url: "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/" },
+      { name: "Count Wonderful Substrings", url: "https://leetcode.com/problems/count-wonderful-substrings/" },
+    ]
+  },
+  "3273": {
+    name: "Colored Chairs",
+    category: "Interactive – Greedy / Coloring",
+    cses_url: "https://cses.fi/problemset/task/3273",
+    leetcode: [
+      { name: "Is Graph Bipartite?", url: "https://leetcode.com/problems/is-graph-bipartite/" },
+      { name: "Assign Cookies", url: "https://leetcode.com/problems/assign-cookies/" },
+    ]
+  },
+  "3140": {
+    name: "Inversion Sorting",
+    category: "Interactive – Inversions / Merge Sort",
+    cses_url: "https://cses.fi/problemset/task/3140",
+    leetcode: [
+      { name: "Count of Smaller Numbers After Self", url: "https://leetcode.com/problems/count-of-smaller-numbers-after-self/" },
+      { name: "Sort an Array", url: "https://leetcode.com/problems/sort-an-array/" },
+    ]
+  },
+
+  // ── Bitwise Operations (new) ────────────────────
+  "3233": {
+    name: "All Subarray Xors",
+    category: "Bitwise – XOR / Prefix XOR",
+    cses_url: "https://cses.fi/problemset/task/3233",
+    leetcode: [
+      { name: "Count Triplets That Can Form Two Arrays of Equal XOR", url: "https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/" },
+      { name: "XOR Queries of a Subarray", url: "https://leetcode.com/problems/xor-queries-of-a-subarray/" },
+      { name: "Find XOR Sum of All Pairs Bitwise AND", url: "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/" },
+    ]
+  },
+  "3194": {
+    name: "Xor Pyramid Diagonal",
+    category: "Bitwise – XOR Pyramid / Pascal Triangle XOR",
+    cses_url: "https://cses.fi/problemset/task/3194",
+    leetcode: [
+      { name: "Find XOR Sum of All Pairs Bitwise AND", url: "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/" },
+      { name: "Decode XORed Array", url: "https://leetcode.com/problems/decode-xored-array/" },
+    ]
+  },
+  "3195": {
+    name: "Xor Pyramid Row",
+    category: "Bitwise – XOR Pyramid / Row Queries",
+    cses_url: "https://cses.fi/problemset/task/3195",
+    leetcode: [
+      { name: "Decode XORed Array", url: "https://leetcode.com/problems/decode-xored-array/" },
+      { name: "Find the K-th Character in String Game I", url: "https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/" },
+    ]
+  },
+  "3141": {
+    name: "And Subset Count",
+    category: "Bitwise – Bitmask DP / AND over Subsets",
+    cses_url: "https://cses.fi/problemset/task/3141",
+    leetcode: [
+      { name: "Number of Valid Words for Each Puzzle", url: "https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/" },
+      { name: "Count Number of Maximum Bitwise-OR Subsets", url: "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/" },
+      { name: "Largest Combination With Bitwise AND Greater Than Zero", url: "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/" },
+    ]
+  },
+
+  // ── Construction Problems (new) ─────────────────
+  "3422": {
+    name: "Third Permutation",
+    category: "Construction – Permutation Construction",
+    cses_url: "https://cses.fi/problemset/task/3422",
+    leetcode: [
+      { name: "Construct the Smallest Number From DI String", url: "https://leetcode.com/problems/construct-the-smallest-number-from-di-string/" },
+      { name: "Find Permutation", url: "https://leetcode.com/problems/find-permutation/" },
+    ]
+  },
+  "3423": {
+    name: "Permutation Prime Sums",
+    category: "Construction – Permutation / Prime Sums",
+    cses_url: "https://cses.fi/problemset/task/3423",
+    leetcode: [
+      { name: "Next Permutation", url: "https://leetcode.com/problems/next-permutation/" },
+      { name: "Permutation Sequence", url: "https://leetcode.com/problems/permutation-sequence/" },
+    ]
+  },
+  "3424": {
+    name: "Distinct Sums Grid",
+    category: "Construction – Grid Construction / Distinct Sums",
+    cses_url: "https://cses.fi/problemset/task/3424",
+    leetcode: [
+      { name: "Valid Arrangement of Pairs", url: "https://leetcode.com/problems/valid-arrangement-of-pairs/" },
+      { name: "Construct Smallest Number From DI String", url: "https://leetcode.com/problems/construct-the-smallest-number-from-di-string/" },
+    ]
+  },
+
+  // ── Advanced Graph Problems (new) ───────────────
+  "3303": {
+    name: "Nearest Shops",
+    category: "Advanced Graph – Multi-Source BFS / Nearest Node",
+    cses_url: "https://cses.fi/problemset/task/3303",
+    leetcode: [
+      { name: "As Far from Land as Possible", url: "https://leetcode.com/problems/as-far-from-land-as-possible/" },
+      { name: "01 Matrix", url: "https://leetcode.com/problems/01-matrix/" },
+      { name: "Map of Highest Peak", url: "https://leetcode.com/problems/map-of-highest-peak/" },
+    ]
+  },
+  "3357": {
+    name: "Fixed Length Walk Queries",
+    category: "Advanced Graph – Matrix Exponentiation / Walk Counting",
+    cses_url: "https://cses.fi/problemset/task/3357",
+    leetcode: [
+      { name: "Count All Possible Routes", url: "https://leetcode.com/problems/count-all-possible-routes/" },
+      { name: "Number of Ways to Arrive at Destination", url: "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/" },
+    ]
+  },
+  "3111": {
+    name: "Transfer Speeds Sum",
+    category: "Advanced Graph – Spanning Tree / Edge Queries",
+    cses_url: "https://cses.fi/problemset/task/3111",
+    leetcode: [
+      { name: "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree", url: "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" },
+      { name: "Redundant Connection", url: "https://leetcode.com/problems/redundant-connection/" },
+    ]
+  },
+  "3407": {
+    name: "MST Edge Check",
+    category: "Advanced Graph – MST / Edge Membership",
+    cses_url: "https://cses.fi/problemset/task/3407",
+    leetcode: [
+      { name: "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree", url: "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" },
+      { name: "Connecting Cities With Minimum Cost", url: "https://leetcode.com/problems/connecting-cities-with-minimum-cost/" },
+    ]
+  },
+  "3408": {
+    name: "MST Edge Set Check",
+    category: "Advanced Graph – MST / Verify Edge Set",
+    cses_url: "https://cses.fi/problemset/task/3408",
+    leetcode: [
+      { name: "Min Cost to Connect All Points", url: "https://leetcode.com/problems/min-cost-to-connect-all-points/" },
+      { name: "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree", url: "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" },
+    ]
+  },
+  "3409": {
+    name: "MST Edge Cost",
+    category: "Advanced Graph – MST / Path Max Edge (LCA + Kruskal Tree)",
+    cses_url: "https://cses.fi/problemset/task/3409",
+    leetcode: [
+      { name: "Path With Maximum Minimum Value", url: "https://leetcode.com/problems/path-with-maximum-minimum-value/" },
+      { name: "Minimum Score of a Path Between Two Cities", url: "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/" },
+    ]
+  },
+  "3114": {
+    name: "Tree Coin Collecting I",
+    category: "Advanced Graph – Tree DP / Coin Collecting",
+    cses_url: "https://cses.fi/problemset/task/3114",
+    leetcode: [
+      { name: "Collect Coins in a Tree", url: "https://leetcode.com/problems/collect-coins-in-a-tree/" },
+      { name: "Sum of Distances in Tree", url: "https://leetcode.com/problems/sum-of-distances-in-tree/" },
+    ]
+  },
+  "3149": {
+    name: "Tree Coin Collecting II",
+    category: "Advanced Graph – Tree DP / Advanced Coin Collecting",
+    cses_url: "https://cses.fi/problemset/task/3149",
+    leetcode: [
+      { name: "Collect Coins in a Tree", url: "https://leetcode.com/problems/collect-coins-in-a-tree/" },
+      { name: "Minimum Cost to Make All Nodes in One Group", url: "https://leetcode.com/problems/minimum-cost-to-make-all-nodes-in-one-group/" },
+    ]
+  },
+  "3308": {
+    name: "Graph Coloring",
+    category: "Advanced Graph – Graph Coloring / Chromatic Number",
+    cses_url: "https://cses.fi/problemset/task/3308",
+    leetcode: [
+      { name: "Possible Bipartition", url: "https://leetcode.com/problems/possible-bipartition/" },
+      { name: "Divide Nodes Into the Maximum Number of Groups", url: "https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/" },
+    ]
+  },
+  "3158": {
+    name: "Bus Companies",
+    category: "Advanced Graph – Shortest Path / Company Layering",
+    cses_url: "https://cses.fi/problemset/task/3158",
+    leetcode: [
+      { name: "Number of Ways to Arrive at Destination", url: "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/" },
+      { name: "Minimum Cost to Reach Destination in Time", url: "https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/" },
+    ]
+  },
+  "3358": {
+    name: "Split into Two Paths",
+    category: "Advanced Graph – Tree Paths / Edge Disjoint",
+    cses_url: "https://cses.fi/problemset/task/3358",
+    leetcode: [
+      { name: "Diameter of Binary Tree", url: "https://leetcode.com/problems/diameter-of-binary-tree/" },
+      { name: "Binary Tree Maximum Path Sum", url: "https://leetcode.com/problems/binary-tree-maximum-path-sum/" },
+    ]
+  },
+
+  // ── Counting Problems (new) ─────────────────────
+  "3413": {
+    name: "Filled Subgrid Count I",
+    category: "Counting – 2D Grid / Submatrix Counting",
+    cses_url: "https://cses.fi/problemset/task/3413",
+    leetcode: [
+      { name: "Number of Submatrices That Sum to Target", url: "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/" },
+      { name: "Count Submatrices With All Ones", url: "https://leetcode.com/problems/count-submatrices-with-all-ones/" },
+    ]
+  },
+  "3414": {
+    name: "Filled Subgrid Count II",
+    category: "Counting – 2D Grid / Advanced Submatrix Counting",
+    cses_url: "https://cses.fi/problemset/task/3414",
+    leetcode: [
+      { name: "Maximal Rectangle", url: "https://leetcode.com/problems/maximal-rectangle/" },
+      { name: "Count Submatrices With All Ones", url: "https://leetcode.com/problems/count-submatrices-with-all-ones/" },
+    ]
+  },
+  "3415": {
+    name: "All Letter Subgrid Count I",
+    category: "Counting – Subgrid by Character / Inclusion-Exclusion",
+    cses_url: "https://cses.fi/problemset/task/3415",
+    leetcode: [
+      { name: "Number of Submatrices That Sum to Target", url: "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/" },
+      { name: "Count Submatrices With Top-Left Element and Sum Less Than k", url: "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/" },
+    ]
+  },
+  "3416": {
+    name: "All Letter Subgrid Count II",
+    category: "Counting – Subgrid by Character / Advanced",
+    cses_url: "https://cses.fi/problemset/task/3416",
+    leetcode: [
+      { name: "Maximal Square", url: "https://leetcode.com/problems/maximal-square/" },
+      { name: "Count Submatrices With All Ones", url: "https://leetcode.com/problems/count-submatrices-with-all-ones/" },
+    ]
+  },
+  "3417": {
+    name: "Border Subgrid Count I",
+    category: "Counting – Border Subgrid / Frame Counting",
+    cses_url: "https://cses.fi/problemset/task/3417",
+    leetcode: [
+      { name: "Number of Closed Islands", url: "https://leetcode.com/problems/number-of-closed-islands/" },
+      { name: "Count Sub Islands", url: "https://leetcode.com/problems/count-sub-islands/" },
+    ]
+  },
+  "3418": {
+    name: "Border Subgrid Count II",
+    category: "Counting – Border Subgrid / Advanced Frame",
+    cses_url: "https://cses.fi/problemset/task/3418",
+    leetcode: [
+      { name: "Number of Enclaves", url: "https://leetcode.com/problems/number-of-enclaves/" },
+      { name: "Surrounded Regions", url: "https://leetcode.com/problems/surrounded-regions/" },
+    ]
+  },
+  "3400": {
+    name: "Raab Game II",
+    category: "Counting – Game Theory / Combinatorics",
+    cses_url: "https://cses.fi/problemset/task/3400",
+    leetcode: [
+      { name: "Stone Game IV", url: "https://leetcode.com/problems/stone-game-iv/" },
+      { name: "Predict the Winner", url: "https://leetcode.com/problems/predict-the-winner/" },
+    ]
+  },
+  "2429": {
+    name: "Grid Completion",
+    category: "Counting – Grid DP / Partial Grid Fill",
+    cses_url: "https://cses.fi/problemset/task/2429",
+    leetcode: [
+      { name: "Valid Sudoku", url: "https://leetcode.com/problems/valid-sudoku/" },
+      { name: "Unique Paths II", url: "https://leetcode.com/problems/unique-paths-ii/" },
+    ]
+  },
+  "3232": {
+    name: "Tournament Graph Distribution",
+    category: "Counting – Tournament Graph / Combinatorics",
+    cses_url: "https://cses.fi/problemset/task/3232",
+    leetcode: [
+      { name: "Find the Winner of an Array Game", url: "https://leetcode.com/problems/find-the-winner-of-an-array-game/" },
+      { name: "Count Servers that Communicate", url: "https://leetcode.com/problems/count-servers-that-communicate/" },
+    ]
+  },
+  "3157": {
+    name: "Collecting Numbers Distribution",
+    category: "Counting – Permutation Distribution / Sorting",
+    cses_url: "https://cses.fi/problemset/task/3157",
+    leetcode: [
+      { name: "Count the Number of Fair Pairs", url: "https://leetcode.com/problems/count-the-number-of-fair-pairs/" },
+      { name: "Count of Smaller Numbers After Self", url: "https://leetcode.com/problems/count-of-smaller-numbers-after-self/" },
+    ]
+  },
+
+  // ── Additional Problems I (new) ─────────────────
+  "3150": {
+    name: "Distinct Values Sum",
+    category: "Additional I – Two Pointers / Distinct Sum",
+    cses_url: "https://cses.fi/problemset/task/3150",
+    leetcode: [
+      { name: "Sum of Subarray Minimums", url: "https://leetcode.com/problems/sum-of-subarray-minimums/" },
+      { name: "Range Sum of Sorted Subarray Sums", url: "https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/" },
+    ]
+  },
+  "3190": {
+    name: "Distinct Values Splits",
+    category: "Additional I – Array Splitting / Distinct Values",
+    cses_url: "https://cses.fi/problemset/task/3190",
+    leetcode: [
+      { name: "Partition Labels", url: "https://leetcode.com/problems/partition-labels/" },
+      { name: "Partition Array into Disjoint Intervals", url: "https://leetcode.com/problems/partition-array-into-disjoint-intervals/" },
+    ]
+  },
+  "3175": {
+    name: "Beautiful Permutation II",
+    category: "Additional I – Permutation / Alternating Differences",
+    cses_url: "https://cses.fi/problemset/task/3175",
+    leetcode: [
+      { name: "Beautiful Arrangement II", url: "https://leetcode.com/problems/beautiful-arrangement-ii/" },
+      { name: "Wiggle Sort II", url: "https://leetcode.com/problems/wiggle-sort-ii/" },
+    ]
+  },
+  "3151": {
+    name: "Bubble Sort Rounds I",
+    category: "Additional I – Inversions / BIT",
+    cses_url: "https://cses.fi/problemset/task/3151",
+    leetcode: [
+      { name: "Count of Smaller Numbers After Self", url: "https://leetcode.com/problems/count-of-smaller-numbers-after-self/" },
+      { name: "Sort an Array", url: "https://leetcode.com/problems/sort-an-array/" },
+    ]
+  },
+  "3152": {
+    name: "Bubble Sort Rounds II",
+    category: "Additional I – Inversions / Advanced BIT",
+    cses_url: "https://cses.fi/problemset/task/3152",
+    leetcode: [
+      { name: "Count Inversions", url: "https://leetcode.com/problems/count-inversions/" },
+      { name: "Minimum Adjacent Swaps to Reach the Kth Smallest Number", url: "https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/" },
+    ]
+  },
+  "3306": {
+    name: "Nearest Campsites I",
+    category: "Additional I – Geometric Queries / Nearest Point",
+    cses_url: "https://cses.fi/problemset/task/3306",
+    leetcode: [
+      { name: "K Closest Points to Origin", url: "https://leetcode.com/problems/k-closest-points-to-origin/" },
+      { name: "Find Closest Number to Zero", url: "https://leetcode.com/problems/find-closest-number-to-zero/" },
+    ]
+  },
+  "3307": {
+    name: "Nearest Campsites II",
+    category: "Additional I – Geometric Queries / Range Nearest",
+    cses_url: "https://cses.fi/problemset/task/3307",
+    leetcode: [
+      { name: "K Closest Points to Origin", url: "https://leetcode.com/problems/k-closest-points-to-origin/" },
+      { name: "Find K Closest Elements", url: "https://leetcode.com/problems/find-k-closest-elements/" },
+    ]
+  },
+  "3169": {
+    name: "Counting LCM Arrays",
+    category: "Additional I – LCM / Number Theory Counting",
+    cses_url: "https://cses.fi/problemset/task/3169",
+    leetcode: [
+      { name: "Count the Number of Ideal Arrays", url: "https://leetcode.com/problems/count-the-number-of-ideal-arrays/" },
+      { name: "Count Array Pairs Divisible by K", url: "https://leetcode.com/problems/count-array-pairs-divisible-by-k/" },
+    ]
+  },
+  "3193": {
+    name: "Square Subsets",
+    category: "Additional I – XOR Linear Basis / Perfect Square Product",
+    cses_url: "https://cses.fi/problemset/task/3193",
+    leetcode: [
+      { name: "Largest Component Size by Common Factor", url: "https://leetcode.com/problems/largest-component-size-by-common-factor/" },
+      { name: "Count Number of Maximum Bitwise-OR Subsets", url: "https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/" },
+    ]
+  },
+  "3294": {
+    name: "Subarray Sum Constraints",
+    category: "Additional I – Prefix Sums / Constraint Counting",
+    cses_url: "https://cses.fi/problemset/task/3294",
+    leetcode: [
+      { name: "Count Subarrays Where Max Element Appears at Least K Times", url: "https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/" },
+      { name: "Subarray Sum Equals K", url: "https://leetcode.com/problems/subarray-sum-equals-k/" },
+    ]
+  },
+  "3213": {
+    name: "Water Containers Moves",
+    category: "Additional I – Greedy / Balancing",
+    cses_url: "https://cses.fi/problemset/task/3213",
+    leetcode: [
+      { name: "Minimum Operations to Reduce X to Zero", url: "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/" },
+      { name: "Container With Most Water", url: "https://leetcode.com/problems/container-with-most-water/" },
+    ]
+  },
+  "3214": {
+    name: "Water Containers Queries",
+    category: "Additional I – Offline Queries / Balance",
+    cses_url: "https://cses.fi/problemset/task/3214",
+    leetcode: [
+      { name: "Minimum Number of Operations to Make Array Empty", url: "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/" },
+      { name: "Minimum Amount of Time to Fill Cups", url: "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/" },
+    ]
+  },
+  "2425": {
+    name: "Stack Weights",
+    category: "Additional I – Stack / Weighted Simulation",
+    cses_url: "https://cses.fi/problemset/task/2425",
+    leetcode: [
+      { name: "Min Stack", url: "https://leetcode.com/problems/min-stack/" },
+      { name: "Maximum Frequency Stack", url: "https://leetcode.com/problems/maximum-frequency-stack/" },
+    ]
+  },
+  "3301": {
+    name: "Maximum Average Subarrays",
+    category: "Additional I – Sliding Window / Maximum Average",
+    cses_url: "https://cses.fi/problemset/task/3301",
+    leetcode: [
+      { name: "Maximum Average Subarray I", url: "https://leetcode.com/problems/maximum-average-subarray-i/" },
+      { name: "Maximum Average Subarray II", url: "https://leetcode.com/problems/maximum-average-subarray-ii/" },
+    ]
+  },
+  "3302": {
+    name: "Subsets with Fixed Average",
+    category: "Additional I – DP / Subset with Average",
+    cses_url: "https://cses.fi/problemset/task/3302",
+    leetcode: [
+      { name: "Partition Equal Subset Sum", url: "https://leetcode.com/problems/partition-equal-subset-sum/" },
+      { name: "Number of Ways to Split a String", url: "https://leetcode.com/problems/number-of-ways-to-split-a-string/" },
+    ]
+  },
+  "3361": {
+    name: "Two Array Average",
+    category: "Additional I – Two Pointers / Equal Average Split",
+    cses_url: "https://cses.fi/problemset/task/3361",
+    leetcode: [
+      { name: "Partition Array Into Two Arrays to Minimize Sum Difference", url: "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/" },
+      { name: "Split Array With Equal Sum", url: "https://leetcode.com/problems/split-array-with-equal-sum/" },
+    ]
+  },
+  "3404": {
+    name: "Permutation Subsequence",
+    category: "Additional I – LIS / Permutation Subsequence",
+    cses_url: "https://cses.fi/problemset/task/3404",
+    leetcode: [
+      { name: "Longest Increasing Subsequence", url: "https://leetcode.com/problems/longest-increasing-subsequence/" },
+      { name: "Number of Longest Increasing Subsequence", url: "https://leetcode.com/problems/number-of-longest-increasing-subsequence/" },
+    ]
+  },
+  "2427": {
+    name: "Letter Pair Move Game",
+    category: "Additional I – Game Theory / String Moves",
+    cses_url: "https://cses.fi/problemset/task/2427",
+    leetcode: [
+      { name: "Zuma Game", url: "https://leetcode.com/problems/zuma-game/" },
+      { name: "Stone Game", url: "https://leetcode.com/problems/stone-game/" },
+    ]
+  },
+  "2414": {
+    name: "List of Sums",
+    category: "Additional I – Sorting / Pairwise Sum Recovery",
+    cses_url: "https://cses.fi/problemset/task/2414",
+    leetcode: [
+      { name: "Find Original Array From Doubled Array", url: "https://leetcode.com/problems/find-original-array-from-doubled-array/" },
+      { name: "Check Array Formation Through Concatenation", url: "https://leetcode.com/problems/check-array-formation-through-concatenation/" },
+    ]
+  },
+
+  // ── Additional Problems II (new) ────────────────
+  "3215": {
+    name: "Bouncing Ball Steps",
+    category: "Additional II – Simulation / Math",
+    cses_url: "https://cses.fi/problemset/task/3215",
+    leetcode: [
+      { name: "Minimum Number of Moves to Seat Everyone", url: "https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/" },
+      { name: "Reach a Number", url: "https://leetcode.com/problems/reach-a-number/" },
+    ]
+  },
+  "3216": {
+    name: "Bouncing Ball Cycle",
+    category: "Additional II – Cycle Detection / Simulation",
+    cses_url: "https://cses.fi/problemset/task/3216",
+    leetcode: [
+      { name: "Find the Duplicate Number", url: "https://leetcode.com/problems/find-the-duplicate-number/" },
+      { name: "Linked List Cycle II", url: "https://leetcode.com/problems/linked-list-cycle-ii/" },
+    ]
+  },
+  "3218": {
+    name: "Knight Moves Queries",
+    category: "Additional II – BFS / Knight Distance Queries",
+    cses_url: "https://cses.fi/problemset/task/3218",
+    leetcode: [
+      { name: "Minimum Knight Moves", url: "https://leetcode.com/problems/minimum-knight-moves/" },
+      { name: "Count Reachable Positions", url: "https://leetcode.com/problems/count-reachable-positions/" },
+    ]
+  },
+  "3108": {
+    name: "K Subset Sums I",
+    category: "Additional II – DP / All Subset Sums Sorted",
+    cses_url: "https://cses.fi/problemset/task/3108",
+    leetcode: [
+      { name: "Find Array Given Subset Sums", url: "https://leetcode.com/problems/find-array-given-subset-sums/" },
+      { name: "Partition Equal Subset Sum", url: "https://leetcode.com/problems/partition-equal-subset-sum/" },
+    ]
+  },
+  "3109": {
+    name: "K Subset Sums II",
+    category: "Additional II – DP / Advanced Subset Sums",
+    cses_url: "https://cses.fi/problemset/task/3109",
+    leetcode: [
+      { name: "Find Array Given Subset Sums", url: "https://leetcode.com/problems/find-array-given-subset-sums/" },
+      { name: "Target Sum", url: "https://leetcode.com/problems/target-sum/" },
+    ]
+  },
+  "3312": {
+    name: "Grid Coloring II",
+    category: "Additional II – Grid Coloring / DP",
+    cses_url: "https://cses.fi/problemset/task/3312",
+    leetcode: [
+      { name: "Paint House II", url: "https://leetcode.com/problems/paint-house-ii/" },
+      { name: "Minimum Path Cost in a Grid", url: "https://leetcode.com/problems/minimum-path-cost-in-a-grid/" },
+    ]
+  },
+  "2426": {
+    name: "Programmers and Artists",
+    category: "Additional II – Two Pointers / Greedy Matching",
+    cses_url: "https://cses.fi/problemset/task/2426",
+    leetcode: [
+      { name: "Two City Scheduling", url: "https://leetcode.com/problems/two-city-scheduling/" },
+      { name: "Minimum Cost to Connect Sticks", url: "https://leetcode.com/problems/minimum-cost-to-connect-sticks/" },
+    ]
+  },
+  "3159": {
+    name: "Replace with Difference",
+    category: "Additional II – Array Transformation / Prefix",
+    cses_url: "https://cses.fi/problemset/task/3159",
+    leetcode: [
+      { name: "Running Sum of 1d Array", url: "https://leetcode.com/problems/running-sum-of-1d-array/" },
+      { name: "Find the Difference", url: "https://leetcode.com/problems/find-the-difference/" },
+    ]
+  },
+  "2432": {
+    name: "Grid Puzzle I",
+    category: "Additional II – Grid DP / Placement",
+    cses_url: "https://cses.fi/problemset/task/2432",
+    leetcode: [
+      { name: "Unique Paths", url: "https://leetcode.com/problems/unique-paths/" },
+      { name: "Minimum Path Sum", url: "https://leetcode.com/problems/minimum-path-sum/" },
+    ]
+  },
+  "3161": {
+    name: "GCD Subsets",
+    category: "Additional II – GCD / Number Theory Subsets",
+    cses_url: "https://cses.fi/problemset/task/3161",
+    leetcode: [
+      { name: "Find Greatest Common Divisor of Array", url: "https://leetcode.com/problems/find-greatest-common-divisor-of-array/" },
+      { name: "Count the Number of Ideal Arrays", url: "https://leetcode.com/problems/count-the-number-of-ideal-arrays/" },
+    ]
+  },
+  "3402": {
+    name: "Minimum Cost Pairs",
+    category: "Additional II – Greedy / Pair Matching",
+    cses_url: "https://cses.fi/problemset/task/3402",
+    leetcode: [
+      { name: "Minimum Cost to Connect Sticks", url: "https://leetcode.com/problems/minimum-cost-to-connect-sticks/" },
+      { name: "Find the Minimum and Maximum Number of Nodes Between Critical Points", url: "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/" },
+    ]
+  },
+  "3425": {
+    name: "Same Sum Subsets",
+    category: "Additional II – Subset Sum / Counting",
+    cses_url: "https://cses.fi/problemset/task/3425",
+    leetcode: [
+      { name: "Partition Equal Subset Sum", url: "https://leetcode.com/problems/partition-equal-subset-sum/" },
+      { name: "Count of Subsets with Sum Equal to Target", url: "https://leetcode.com/problems/count-of-subsets-with-sum-equal-to-target/" },
+    ]
+  },
+  "3401": {
+    name: "Stick Difference",
+    category: "Additional II – Greedy / Minimize Difference",
+    cses_url: "https://cses.fi/problemset/task/3401",
+    leetcode: [
+      { name: "Minimum Difference Between Largest and Smallest Value in Three Moves", url: "https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/" },
+      { name: "Minimum Absolute Difference", url: "https://leetcode.com/problems/minimum-absolute-difference/" },
+    ]
+  },
+  "2402": {
+    name: "Two Stacks Sorting",
+    category: "Additional II – Stack / Sorting with Two Stacks",
+    cses_url: "https://cses.fi/problemset/task/2402",
+    leetcode: [
+      { name: "Sort a Stack", url: "https://leetcode.com/problems/sort-a-stack/" },
+      { name: "Validate Stack Sequences", url: "https://leetcode.com/problems/validate-stack-sequences/" },
     ]
   },
 };
