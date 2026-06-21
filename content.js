@@ -21,7 +21,7 @@
         'tree-algorithms': 'Tree Algorithms',
         'mathematics': 'Mathematics',
         'string-algorithms': 'String Algorithms',
-        'geometry': 'Geometry',
+        'geometry': 'Geometryy',
         'advanced-techniques': 'Advanced Techniques',
         'sliding-window': 'Sliding Window Problems',
         'interactive': 'Interactive Problems',
